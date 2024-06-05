@@ -1,8 +1,8 @@
 package com.cugb.game;
 
-import com.cugb.util.MyUtil;
-
 import java.awt.*;
+
+import com.cugb.util.MyUtil;
 
 /**
  * 用来控制爆炸效果的类

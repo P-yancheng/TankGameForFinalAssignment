@@ -7,6 +7,8 @@ import com.cugb.tank.Tank;
 import com.cugb.util.MusicUtil;
 import com.cugb.util.MyUtil;
 
+import static com.cugb.util.Constant.*;
+
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
@@ -15,8 +17,6 @@ import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.cugb.util.Constant.*;
 
 /**
  * 游戏的主窗口类。
@@ -470,13 +470,13 @@ public class GameFrame extends Frame implements Runnable{
                         startGame(1);
                         break;
                     case 1:
-                        //继续游戏。进入选择关卡的界面
+                    	setGameState(STATE_HELP);
                         break;
                     case 2:
-                        setGameState(STATE_HELP);
+                    	setGameState(STATE_ABOUT);
                         break;
                     case 3:
-                        setGameState(STATE_ABOUT);
+                    	System.exit(0);
                         break;
                     case 4:
                         System.exit(0);

@@ -1,9 +1,9 @@
 package com.cugb.util;
 
-import com.cugb.game.Bullet;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.cugb.game.Bullet;
 
 /**
  * 子弹对象池类。

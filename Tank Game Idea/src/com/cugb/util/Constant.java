@@ -31,9 +31,9 @@ public class Constant {
 
     public  static final String[] MENUS = {
             "开始游戏",
-            "继续游戏",
+            //"继续游戏",
             "游戏帮助",
-            "游戏关于",
+            "关于我们",
             "退出游戏"
     };
 

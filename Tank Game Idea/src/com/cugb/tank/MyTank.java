@@ -1,8 +1,8 @@
 package com.cugb.tank;
 
-import com.cugb.util.MyUtil;
-
 import java.awt.*;
+
+import com.cugb.util.MyUtil;
 
 /**
  * 自己的坦克
